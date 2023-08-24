@@ -1,0 +1,19 @@
+import React from 'react'
+import loading from  './loading.gif'
+
+export default function spinner() {
+  
+    return (
+      <div className='text-center'>
+        <img className='my-4' src={loading} alt='loading'/>
+      </div>
+    )
+  } 
+
+ 
+
+
+
+
+
+
